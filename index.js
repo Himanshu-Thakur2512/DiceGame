@@ -27,3 +27,8 @@ else if(randomNumber1 < randomImageNumber2)
 else{
     document.querySelector("h1").innerHTML="Try Again!";
 }
+
+document.querySelector("button").addEventListner("click", function()
+{
+    location.reload();
+});
